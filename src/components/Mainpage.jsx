@@ -12,7 +12,6 @@ export default function Mainpage() {
                     offset={0}
                     speed={2.5}
                     style={{
-                        display: 'flex',
                         justifyContent: 'center',
                         alignItems: 'center',
                         color: 'white',
