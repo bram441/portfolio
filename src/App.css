@@ -19,3 +19,48 @@
   top: 30%;
   width: 100%;
 }
+
+h1 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.container {
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 30px 40px;
+  grid-auto-flow: row;
+
+  grid-template-areas:
+    "Java React Html"
+    "CSS Python Javascript";
+}
+
+.container img {
+  height: 5em;
+}
+
+.Java {
+  grid-area: Java;
+}
+
+.React {
+  grid-area: React;
+}
+
+.Html {
+  grid-area: Html;
+}
+
+.CSS {
+  grid-area: CSS;
+}
+
+.Python {
+  grid-area: Python;
+}
+
+.Javascript {
+  grid-area: Javascript;
+}
