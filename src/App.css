@@ -2,12 +2,33 @@
   background-color: #292d3e;
 }
 
+/* navbar */
+
+.navbar {
+  padding-top: 25px;
+}
+
+.navbar a {
+  text-decoration: none;
+  padding-left: 25px;
+  padding-right: 100px;
+  font-size: x-large;
+  display: inline-block;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  text-decoration-color: #39ace7;
+}
+
+/* first page */
+
 .foto_bram {
   border-radius: 8px;
   width: 250px;
   margin: 0;
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -16,7 +37,7 @@
 .FirstPage {
   position: absolute;
   text-align: center;
-  top: 30%;
+  top: 20%;
   width: 100%;
 }
 
@@ -24,6 +45,9 @@ h1 {
   text-align: center;
   padding-bottom: 50px;
 }
+
+/* skills */
+
 .container {
   text-align: center;
   display: grid;
@@ -63,4 +87,97 @@ h1 {
 
 .Javascript {
   grid-area: Javascript;
+}
+
+/* table */
+
+table {
+  width: 100%;
+}
+
+td {
+  padding-right: 5%;
+  padding-bottom: 2%;
+}
+
+/* links */
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: black;
+}
+
+a::after {
+  color: white;
+}
+
+/* form */
+
+textarea {
+  width: 800px;
+  height: 200px;
+  max-width: 800px;
+  max-height: 150px;
+  background-color: #f6f6f6;
+  border: 2px solid #f6f6f6;
+  color: #0d0d0d;
+  display: inline-block;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+.form {
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"] {
+  background-color: #f6f6f6;
+  border: none;
+  color: #0d0d0d;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 5px;
+  width: 85%;
+  border: 2px solid #f6f6f6;
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus {
+  background-color: #fff;
+  border-bottom: 2px solid #5fbae9;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="reset"] {
+  background-color: #56baed;
+  border: none;
+  color: white;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  -webkit-box-shadow: 0 10px 30px 0 rgba(80, 130, 155, 0.4);
+  box-shadow: 0 10px 30px 0 rgba(52, 83, 99, 0.4);
+  -webkit-border-radius: 5px 5px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
+  margin: 5px 20px 40px 20px;
+}
+
+input[type="button"]:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+  background-color: #39ace7;
+  color: black;
 }

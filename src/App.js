@@ -1,12 +1,14 @@
-import './App.css';
-import Mainpage from './components/Mainpage';
-import { useSpring, animated } from 'react-spring'
+import "./App.css";
+import Mainpage from "./pages/Mainpage";
+import { useSpring, animated } from "react-spring";
 
 function App() {
-  const props = useSpring({ to: { opacity: 1 }, from: { opacity: 0 } })
+  const props = useSpring({ to: { opacity: 1 }, from: { opacity: 0 } });
   return (
     <>
-      <animated.div style={props}><Mainpage/></animated.div>
+      <animated.div style={props}>
+        <Mainpage />
+      </animated.div>
     </>
   );
 }

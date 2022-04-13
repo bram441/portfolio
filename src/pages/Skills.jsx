@@ -8,7 +8,7 @@ import JSLogo from "../images/JSLogo.png";
 
 export default function Skills() {
   return (
-    <body>
+    <body id="programmingSkills">
       <div>
         <h1>Programming related Skills</h1>
       </div>
