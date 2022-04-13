@@ -16,7 +16,7 @@ export default function Mainpage() {
           speed={0.3}
           style={{
             display: "flex",
-            justifyContent: "right",
+            justifyContent: "center",
             alignItems: "right",
             color: "white",
             backgroundColor: "#292d3e",
