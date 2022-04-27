@@ -8,6 +8,7 @@ import Form from "./Form";
 import Navbar from "../components/Navbar";
 
 export default function Mainpage() {
+  //test
   return (
     <>
       <Parallax pages={5} style={{ top: "0", left: "0" }} className="pages">
