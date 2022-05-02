@@ -2,6 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": false,
+  "homepage": "https://bram441.github.io/portfolio/",
   "dependencies": {
     "@formspree/react": "^2.2.4",
     "@react-spring/parallax": "^9.3.0",
