@@ -14,13 +14,13 @@ export default function Skills() {
       </div>
       <div class="container">
         <div class="Java">
-          <img src={JavaLogo} alt="java logo" /> <br></br> Java 65%
+          <img src={JavaLogo} alt="java logo" /> <br></br> Java 75%
         </div>
         <div class="React">
-          <img src={logo} alt="React logo" /> <br></br>React 50%
+          <img src={logo} alt="React logo" /> <br></br>React 75%
         </div>
         <div class="Html">
-          <img src={HTML5Logo} alt="HTML5Logo" /> <br></br>Html 85%
+          <img src={HTML5Logo} alt="HTML5Logo" /> <br></br>Html 95%
         </div>
         <div class="CSS">
           <img src={CSSLogo} alt="CSSLogo" /> <br></br>CSS 70%
