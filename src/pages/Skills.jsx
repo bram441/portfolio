@@ -5,6 +5,8 @@ import HTML5Logo from "../images/HTML5Logo.png";
 import CSSLogo from "../images/CSSLogo.png";
 import PythonLogo from "../images/PythonLogo.png";
 import JSLogo from "../images/JSLogo.png";
+import NodeJsLogo from "../images/nodeJs.png";
+import MysqlLogo from "../images/Mysql.png";
 
 export default function Skills() {
   return (
@@ -30,6 +32,12 @@ export default function Skills() {
         </div>
         <div class="Javascript">
           <img src={JSLogo} alt="Javascript" /> <br></br>Javascript 75%
+        </div>
+        <div class="NodeJs">
+          <img src={NodeJsLogo} alt="NodeJs" /> <br></br>NodeJs 90%
+        </div>
+        <div class="Mysql">
+          <img src={MysqlLogo} alt="Mysql" /> <br></br>Mysql 65%
         </div>
       </div>
     </body>

@@ -57,8 +57,8 @@ h1 {
   grid-auto-flow: row;
 
   grid-template-areas:
-    "Java React Html"
-    "CSS Python Javascript";
+    "Java React Html NodeJs"
+    "CSS Python Javascript Mysql";
 }
 
 .container img {
@@ -87,6 +87,14 @@ h1 {
 
 .Javascript {
   grid-area: Javascript;
+}
+
+.NodeJs {
+  grid-area: NodeJs;
+}
+
+.Mysql {
+  grid-area: Mysql;
 }
 
 /* table */

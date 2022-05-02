@@ -16,7 +16,7 @@ export default function BasicInfo() {
           </tr>
           <tr>
             <td>Geboortedatum:</td>
-            <td>04/04</td>
+            <td>04/04/2001</td>
           </tr>
           <tr>
             <td>Middelbaar diploma:</td>
