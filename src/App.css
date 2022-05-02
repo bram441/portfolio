@@ -46,6 +46,13 @@ h1 {
   padding-bottom: 50px;
 }
 
+/* Over mezelf */
+
+.OverMezelf p {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 /* skills */
 
 .container {
