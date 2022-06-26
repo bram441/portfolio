@@ -2,16 +2,21 @@
   background-color: #292d3e;
 }
 
+html {
+  background-color: #292d3e;
+}
+
 /* navbar */
 
 .navbar {
   padding-top: 25px;
+  text-align: center;
 }
 
 .navbar a {
   text-decoration: none;
   padding-left: 25px;
-  padding-right: 100px;
+  padding-right: 25px;
   font-size: x-large;
   display: inline-block;
 }
@@ -19,6 +24,7 @@
 .navbar a:hover {
   text-decoration: underline;
   text-decoration-color: #39ace7;
+  color: white;
 }
 
 /* first page */

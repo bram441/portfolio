@@ -21,6 +21,17 @@ export default function Contact() {
             </a>
           </td>
         </tr>
+        <tr>
+          <td>CV:</td>
+          <td>
+            <a
+              href="src\images\cv_bram_de_coster.pdf"
+              download="cv_bram_de_coster.pdf"
+            >
+              Bram De Coster Cv
+            </a>
+          </td>
+        </tr>
       </table>
       <a href="#form">Snel een vraag stellen?</a>
     </div>
